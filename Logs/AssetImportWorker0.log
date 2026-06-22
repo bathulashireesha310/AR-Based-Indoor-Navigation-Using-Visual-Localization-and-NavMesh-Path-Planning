@@ -1,0 +1,1664 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.8f1 (f8b72d3d7343) revision 16299821'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vinay" at "2026-06-20T13:43:59.9590585Z"
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32436 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-20T13:43:59Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/Navigation
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50065
+-licensingIpc
+LicenseClient-Vinay
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/UnityProjects/Navigation
+D:/UnityProjects/Navigation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [2728]  Target information:
+
+Player connection [2728]  * "[IP] 192.168.31.117 [Port] 0 [Flags] 2 [Guid] 1504583259 [EditorId] 1504583259 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-450O6CN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2728] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2728] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 36.64 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 2.12 ms.
+Initialize engine version: 6000.4.8f1 (f8b72d3d7343)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/Navigation/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:          NVIDIA
+    VRAM:            3962 MB
+    App VRAM Budget: 3367 MB
+    Driver:          32.0.15.9227
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Vinay"
+[Licensing::IpcConnector] LicenseClient-Vinay channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vinay-6000.4.8" at "2026-06-20T13:44:01.6414019Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 11324, path: "C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              0d4d24ece7014f14bceb04eb3750507c
+  Correlation Id:          27012b7716b48a41797f104b385bd91b
+  External correlation Id: 2116976078214868312
+  Machine Id:              q0/5nTkWwnMxm9riVIfAB9eOm10=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Vinay-6000.4.8" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vinay-6000.4.8-notifications" at "2026-06-20T13:44:01.650958Z"
+[Licensing::Module] Licensing Background thread has ended after 1.69s
+[Licensing::Module] Licensing is initialized (took 0.31s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469839861595-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.314018 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.866 seconds
+Domain Reload Profiling: 1853ms
+	BeginReloadAssembly (193ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (401ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (189ms)
+		AnalyzeDomain (306ms)
+			TypeCache.Refresh (305ms)
+				TypeCache.ScanAssembly (285ms)
+	FinalizeReload (868ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (91ms)
+			BeforeProcessingInitializeOnLoad (378ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mobile.AndroidLogcat.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mobile.AndroidLogcat.Integration.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Integration.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mobile.AndroidLogcat.Performance.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Performance.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mobile.AndroidLogcat.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mobile.AndroidLogcat.Shared.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Shared.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Tutorials.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Tutorials.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Tutorials.Core.Tests.dll at Library/ScriptAssemblies/Unity.Tutorials.Core.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARKit.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARKit.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARKit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARKit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARKit.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARKit.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARSubsystems.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestTooling.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.TestTooling.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 9.17 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.100 seconds
+Domain Reload Profiling: 2136ms
+	BeginReloadAssembly (239ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (642ms)
+		LoadAssemblies (405ms)
+		AnalyzeDomain (364ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (221ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1101ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 9.20 ms, found 9 plugins.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6631 unused Assets / (14.4 MB). Loaded Objects now: 7496.
+Memory consumption went from 169.7 MB to 155.3 MB.
+Total: 12.964400 ms (FindLiveObjects: 0.934900 ms CreateObjectMapping: 0.661200 ms MarkObjects: 5.709100 ms  DeleteObjects: 5.655400 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mobile.AndroidLogcat.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mobile.AndroidLogcat.Integration.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Integration.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mobile.AndroidLogcat.Performance.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Performance.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mobile.AndroidLogcat.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mobile.AndroidLogcat.Shared.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Shared.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Tutorials.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Tutorials.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Tutorials.Core.Tests.dll at Library/ScriptAssemblies/Unity.Tutorials.Core.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARCore.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARCore.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARKit.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARKit.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARKit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARKit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARKit.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARKit.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARSubsystems.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestTooling.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.TestTooling.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 9.66 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.415 seconds
+Domain Reload Profiling: 2413ms
+	BeginReloadAssembly (282ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (568ms)
+		LoadAssemblies (415ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (254ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1416ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (453ms)
+			ProcessInitializeOnLoadMethodAttributes (397ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.34 ms, found 9 plugins.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6639 unused Assets / (8.1 MB). Loaded Objects now: 7510.
+Memory consumption went from 198.1 MB to 190.1 MB.
+Total: 11.150000 ms (FindLiveObjects: 0.948000 ms CreateObjectMapping: 0.616100 ms MarkObjects: 5.441500 ms  DeleteObjects: 4.142700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 578.928313 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts
+  importAddress: Guid(7d667ded3ad954cafb3d39c61759c54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts using Guid(7d667ded3ad954cafb3d39c61759c54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '471dd8d3fc74153f447844f20424d957') in 0.0077535 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=181b19eb1bb7ef5e0927fd483a1436b2 DependenciesID=fbb39611cc2f29e38a3671e14f406327 StaticDependenciesID=1d944cb3405fb44b57cde27238499797 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.656271 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0
+  importAddress: Guid(05a583619b23e8447adca8295b5449b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.3.0 using Guid(05a583619b23e8447adca8295b5449b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0fb5960e9c08eb21a6fce0029f3d3d4a') in 0.003251 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b2a8139fbd203177c582c0486bd52a5 DependenciesID=4a6c6582a8ad4843d782a50f1c21ab91 StaticDependenciesID=0c15790139d9f0e59823087b93904f99 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.091728 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs
+  importAddress: Guid(ed881eea2b5be4afcaa53da11876cc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs using Guid(ed881eea2b5be4afcaa53da11876cc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd80636ecac83857e9f192f4580277df2') in 0.0005953 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d67afa46f96b13263615c8de44048f48 DependenciesID=6f5da064ea42e0956d41bf3cfc5358e3 StaticDependenciesID=d6fea3c737c82de6390312d51ca9d27b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.138723 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Content Placement
+  importAddress: Guid(9419435ac0a9ee849af1a958b8cfa5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Content Placement using Guid(9419435ac0a9ee849af1a958b8cfa5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '382d04088204a145690b90760102736a') in 0.0006324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5511f6517401ef3c619d3a86e0a9783a DependenciesID=6668d785af3342e9ad022dc03ce7eec0 StaticDependenciesID=0be5f8479abb5fcdda759258aa014472 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.572977 seconds.
+  path: Assets/Samples/Immersal SDK
+  importAddress: Guid(6675c9d658157f340b2842c22a0b3b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK using Guid(6675c9d658157f340b2842c22a0b3b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c71d647ee813bbab1d06975105bf7b32') in 0.0008857 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe4897f0559c85cf53452ec285817596 DependenciesID=a86da28b58e55f76604ecd6b378a2a60 StaticDependenciesID=97e1216c8611d87d027d869f927e24b3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 350.537783 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Navigation
+  importAddress: Guid(0ce532c6996864878a05001a7c8f247d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Navigation using Guid(0ce532c6996864878a05001a7c8f247d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1d92d44183366430bee85248820c2c04') in 0.000752 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d0346f8a70a355584ab5129cf688f46 DependenciesID=689d386bc529debfdb2872a1c706a2a4 StaticDependenciesID=8e32f70b38ea9b7b02a1caaeffd0a6bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 616.468890 seconds.
+  path: ProjectSettings/TagManager.asset
+  importAddress: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2887c842075095b82b359f57b53a45f6') in 0.0220175 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29f54aeb3707b7e7ec67b36508eeded7 DependenciesID=aa392bb9214042ee65accd71c844f5ab StaticDependenciesID=e01edae9f183726826f2b7c93159a6a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.650619 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh-Plane.asset
+  importAddress: Guid(220caf9147116ad4bace1d39a9475448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh-Plane.asset using Guid(220caf9147116ad4bace1d39a9475448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '40dbe62ef35a86cbf920b97f133c5b12') in 0.0015005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d5ec55fd6a6ea8fd618de9b5cf28541 DependenciesID=fe00cfad0e4f8730eba825e9a0af0172 StaticDependenciesID=f4488db1080f2d098cb2e2ff5f379bea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.554440 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh-Plane (3).asset
+  importAddress: Guid(e09ca00ff0c456f458ab5d4da11d578b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh-Plane (3).asset using Guid(e09ca00ff0c456f458ab5d4da11d578b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '30d1fb18dda5a84548c5e2e727c04e10') in 0.0011995 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8de531712ec1d89a0bb7f9da1041526b DependenciesID=580ca762d238b34d91b752f4bbc7f7fd StaticDependenciesID=e897d590c6c1c2f06e3416c8edf4164b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.398106 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh-Plane 2.asset
+  importAddress: Guid(14a75ef920febc84bbc608d4c2666716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh-Plane 2.asset using Guid(14a75ef920febc84bbc608d4c2666716) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ee201ca79407255c57c1cd1dce7449ec') in 0.0011447 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f603f01f6b9c85b56f20c93593a0d65 DependenciesID=aca42c51d2ddc9e0e4156b1f42980005 StaticDependenciesID=5509dc0b24273c3c8762cdd800e47777 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 337.978909 seconds.
+  path: Assets
+  importAddress: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ba3d99d3e6455b7d738cc313a5658c64') in 0.0006275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7ba422695a8aa3da15a65ed13cf7f8c DependenciesID=aacbd2d46c4ccb757ffc405dc59c5e9b StaticDependenciesID=09d262387b384c67fbae9f36a9075c34 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.858341 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(4755b35b590504809a7525fd2109c2e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(4755b35b590504809a7525fd2109c2e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '17826535addc3f151e77acf41b0de17d') in 0.0938644 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2111482419f0a2d3ed4832c7c90ec736 DependenciesID=ad4879d918aba3277680df56b1e85d93 StaticDependenciesID=6fe20e2d788467383ff48c402dda8549 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Navigation/Navigation Target Button.prefab
+  importAddress: Guid(5fc004a3707f2f2468ae109dce11dde5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Navigation/Navigation Target Button.prefab using Guid(5fc004a3707f2f2468ae109dce11dde5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a84dc4be35542d8a005593137944dd6c') in 0.1806561 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=05d8e2b6324c323ccfd5443b5b1d4865 DependenciesID=eb4532731b1c9001f4d2261ba0025c18 StaticDependenciesID=0e4d581e01d7d08aa42880674470a43c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_login_256.psd
+  importAddress: Guid(dc4e42ba32ebb3f4ca3b352faf28c67b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_login_256.psd using Guid(dc4e42ba32ebb3f4ca3b352faf28c67b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (Import Result ID: 'bc74cb3392e7ba642a87b9dcbb89fad3') in 0.0691158 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=609b5eeaa5d77ecbd8ae15c2698a4f79 DependenciesID=40f035eed69af1e9827374002a07ac3e StaticDependenciesID=d3695d029a1fe7ffa0a985ec7f1abb56 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_1 line yellow.png
+  importAddress: Guid(8a91b73d2b82f476c9b06396490b1f3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_1 line yellow.png using Guid(8a91b73d2b82f476c9b06396490b1f3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8a5ea7ba08a14b3afe7e97862df98ba0') in 0.0225391 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02f9fb8d9eb16d18b2bed9e020a1710c DependenciesID=68aa3795f6820f49b89962ed1a662345 StaticDependenciesID=53d195d49b4f99734e3e7cf385d6e38b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/LiberationSans/LiberationSans SDF DebugConsole.asset
+  importAddress: Guid(faedf4e49540105449e88d992595e85a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/LiberationSans/LiberationSans SDF DebugConsole.asset using Guid(faedf4e49540105449e88d992595e85a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4f8234bc554a36f26f022e4f516d126d') in 0.0814223 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1063dcf308590beae0f057307c09ee35 DependenciesID=d3a8a1b77a4abeb54f3bf9d14aff6d93 StaticDependenciesID=f9bbac6e5f41411dbc6faa34e6a7cb70 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Util
+  importAddress: Guid(8714e7876896b2a489847b3ddf5f262b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Util using Guid(8714e7876896b2a489847b3ddf5f262b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fb19f0cb06b06fc5bf880c6ec04e72c3') in 0.0092093 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=830960f83ec572c8055902df77e1cee1 DependenciesID=e1ceee3a458a0a47b093b56a4cf44a82 StaticDependenciesID=e15e947e41bf7344d8ba5ebd06412564 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Navigation/Graph/Waypoint Connections.mat
+  importAddress: Guid(b67309a04276ec14c9538d27c1f1b97a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Navigation/Graph/Waypoint Connections.mat using Guid(b67309a04276ec14c9538d27c1f1b97a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e29d435b7a7977526f14cff0cd3509de') in 0.0146838 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4489ee01f2b0f27b097fcb2abfdf44c5 DependenciesID=588613a9e5d2958f128c379fd0931536 StaticDependenciesID=cabdfdc1f83cf06b3fffca5d93cc8d7f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/PoseIndicator.cs
+  importAddress: Guid(5e23628f1593043f995a222e7e61f51d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/PoseIndicator.cs using Guid(5e23628f1593043f995a222e7e61f51d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '24da88505450bc86afb8f62e53e75aa3') in 0.0174676 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=89ca9fcd172dfc341b01c16cfd557376 DependenciesID=59fa57fed5c4239fb5c60094142d657e StaticDependenciesID=9cad08335ed67a2088e916366a927f77 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_cross_64.psd
+  importAddress: Guid(1861c3b18234943feb4857bfb314ac02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_cross_64.psd using Guid(1861c3b18234943feb4857bfb314ac02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bd9fdf3012900a28fcbed837a17a4d7d') in 0.0188812 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0cf765fc8cca6d29d79d4ea88d026d4b DependenciesID=ce161d989bcfbad8a48ddbf80efc6f8e StaticDependenciesID=a476d16a26b472275a46932dfbab4bed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90690-SampleMapC-sparse.ply
+  importAddress: Guid(dbac4a83b54754193bbf9cbffd00ed06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90690-SampleMapC-sparse.ply using Guid(dbac4a83b54754193bbf9cbffd00ed06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '771bd8331d9ae2c4d9b63426b0bf3799') in 0.008772 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e32a8d335da77fdf81ae923921bfacaa DependenciesID=2d0e02928dea302c1f75361d34335663 StaticDependenciesID=cf2a811cc61b312dfefe5ddc0d77beca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_download_map_128.psd
+  importAddress: Guid(e43fb9718e5b5d5498c418b2734a921f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_download_map_128.psd using Guid(e43fb9718e5b5d5498c418b2734a921f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee019aada38ccad47172662385c5656b') in 0.0248462 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2683b7070d00d42e349b195b34d80a8 DependenciesID=4b73ee551734c073aaf512548d7475da StaticDependenciesID=6fd925b98ea530801640102654321c11 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/Graph/pattern_mirrored_gradient.psd
+  importAddress: Guid(825c81fca36441a449175417b43e0e08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/Graph/pattern_mirrored_gradient.psd using Guid(825c81fca36441a449175417b43e0e08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e66491eef792df01ba4f77cbe22b2423') in 0.0259568 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ebb345e0762aaf2a367fcfda7c8f8c4 DependenciesID=6a71642b3a3fc1ebc763cb9fda575f54 StaticDependenciesID=e1e64f24ef6d55b2ceddb6d572631c25 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Content Placement/Diamond Wireframe.mat
+  importAddress: Guid(c4c81c4439698a84b89d9a8cba3b71db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Content Placement/Diamond Wireframe.mat using Guid(c4c81c4439698a84b89d9a8cba3b71db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '19523e89ea221c9309ca5769710f9b09') in 0.0825446 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=366221cef60992d46a46938cb1aa1a69 DependenciesID=2a81ad08615a2a021d009080ff5613f0 StaticDependenciesID=0cf0ee9b4635ce48b04a10ebaea95955 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Util/Notification Canvas.prefab
+  importAddress: Guid(95fd781a621e08d40911ebdf73e64270) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Util/Notification Canvas.prefab using Guid(95fd781a621e08d40911ebdf73e64270) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c050fa6f324d5095928d123c22b26301') in 0.0637635 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ad1e73516f48d2a3174bf3b7401669d DependenciesID=0627db9dba6fa238fe1b329199ad65b6 StaticDependenciesID=f21a92c8b7842d914a7805c7d4d07227 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_main_poseIndicator_excellent.psd
+  importAddress: Guid(3b93a5cd7fc9d48d293f32311d55355b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_main_poseIndicator_excellent.psd using Guid(3b93a5cd7fc9d48d293f32311d55355b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '02b1454f778b21253280becb70f1d3c1') in 0.0246015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17590e4002f07a3084f71873bca79d4d DependenciesID=427a168cfe24c72a0adb14085161aa34 StaticDependenciesID=fd680ea0cdcc8c87c83ccba4debdd33a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/Roboto/Roboto-Medium SDF.asset
+  importAddress: Guid(15b56416980a5014ea7c6b3e07df0a56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/Roboto/Roboto-Medium SDF.asset using Guid(15b56416980a5014ea7c6b3e07df0a56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc326875fcd17bb2ed9939bb78122225') in 0.0314546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17d1e3584ef9350f2c67c1f5929e9cbe DependenciesID=ef0f82e140a12f12427b0bdb6fd31e87 StaticDependenciesID=95064d51340e12c23bd843a5269870a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Content Placement/pattern_circular_gradient.psd
+  importAddress: Guid(bc7e38592b2ca5c479e4c17273c61413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Content Placement/pattern_circular_gradient.psd using Guid(bc7e38592b2ca5c479e4c17273c61413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '073b50f4910674d8a1f14a479dad21be') in 0.0141971 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a6ab5e98af5ca09fd38b31943d3d306 DependenciesID=c0c2086f17e9a67478ae45960224c4f7 StaticDependenciesID=72322d55a452cf6f21fe18eb666edbd9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures
+  importAddress: Guid(62ec3b8b3f4704f0abf316f08cbbe401) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures using Guid(62ec3b8b3f4704f0abf316f08cbbe401) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '49c3bbb6827b5149e5957a2cf53ceecd') in 0.0089376 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=749a296e50b552549d38907f613c082a DependenciesID=0199f1a7c97ce188f02cb205c9435479 StaticDependenciesID=94f78f13ab1a9303717f03327b617d9c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90687-SampleMapA-metadata.json
+  importAddress: Guid(22e434940b54d435a9d5bcc14ffdf18d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90687-SampleMapA-metadata.json using Guid(22e434940b54d435a9d5bcc14ffdf18d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c995191e3d85e5692bc2622c38d4e673') in 0.0136251 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9adb5b6b859e9ad696eee3d7680b2199 DependenciesID=eeccd5bcd1fbbce70051525f464dd988 StaticDependenciesID=c90f7eedc844525cba479b7d37a79958 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_notification_error_icon.psd
+  importAddress: Guid(3eaf0942d6820441191c214e60fc25f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_notification_error_icon.psd using Guid(3eaf0942d6820441191c214e60fc25f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9f6aa4bd19b67ccc820a1266f2a776be') in 0.021301 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b36cd9211067c5e36669b89a8f054b16 DependenciesID=6476c6a78ae92d45cee3cbf98b82341e StaticDependenciesID=61a392894a049ca50841cfaba2cd8390 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/Roboto Mono/RobotoMono-Thin SDF.asset
+  importAddress: Guid(3aa3515b63af5b348a9d6e7d5b4c74de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/Roboto Mono/RobotoMono-Thin SDF.asset using Guid(3aa3515b63af5b348a9d6e7d5b4c74de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '398430bdbc611f5fb4c985f647980160') in 0.0370613 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4967e096b20ca0b7cbabf69b2d8cb3a5 DependenciesID=3cf49c2ad0653e9a39a4d3a9fea1568d StaticDependenciesID=3e06222142f82b5d36566e743a9bb7c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/LOGO_INSTRUCTIONS.txt
+  importAddress: Guid(38630dbc6e9574efa9b8bb0cadb42c62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/LOGO_INSTRUCTIONS.txt using Guid(38630dbc6e9574efa9b8bb0cadb42c62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '11b969d43da0d42f55194dd3c22fa21a') in 0.0148581 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9409a83be620e549a64b46be327de4b DependenciesID=c1c4d8aad5bb45dd8726b17bcb159784 StaticDependenciesID=82970ecb7f922a6047e9b0c9c3b1f524 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Navigation/navigation_target.fbx
+  importAddress: Guid(58751a370f714574b9871f675fd8b54d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Navigation/navigation_target.fbx using Guid(58751a370f714574b9871f675fd8b54d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6389dee8c1b8b5272b0942e000335067') in 0.0593833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52318f960a822c3b5d5e7f0b41d5ff58 DependenciesID=21205a5ba4bca264d84bcbf9b52dcb14 StaticDependenciesID=e29fa0d88897f57dcf25bfbe1b3d3a3a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/NavigationPath.cs
+  importAddress: Guid(9b867d0470ae2a7439bfe12b09cc6fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/NavigationPath.cs using Guid(9b867d0470ae2a7439bfe12b09cc6fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4fab6f65ab420dabf8699531f1fc2085') in 0.0094901 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5cb3b5a28289f367f5ebb9ee72c399ed DependenciesID=137589fb37a9bf5a823a9acfc50296b8 StaticDependenciesID=238c934391975d52ef32578e0182d5a4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Util/Notification Manager.prefab
+  importAddress: Guid(3a95d7ccd50d29145b5ce3d84753e46f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Util/Notification Manager.prefab using Guid(3a95d7ccd50d29145b5ce3d84753e46f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f92f400acd2b32c4ef808f6a970dc802') in 0.0288123 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c907360c5131eee1634bc693078896b0 DependenciesID=e387467e3d6bd904989287f17076fb6e StaticDependenciesID=10485624248d1f9981e591f27dee9fb4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Sounds
+  importAddress: Guid(dd84bb76d63d245de9dc83550333b456) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Sounds using Guid(dd84bb76d63d245de9dc83550333b456) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c3acb2a785200506ee24e111de9c1c64') in 0.0087314 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=695b639a32c3bca76dac3a7444b60fb6 DependenciesID=180cf12dcf866cf1ee87e20d46bb12c1 StaticDependenciesID=491e1401f2c54a60d8dd4289b95f9fac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Navigation/Navigation Target Mesh.mat
+  importAddress: Guid(edb4eaabd649a364fb4fc5d7e35cb92a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Navigation/Navigation Target Mesh.mat using Guid(edb4eaabd649a364fb4fc5d7e35cb92a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '78b2fcd1ccb3861f54aae27b71255baa') in 0.011002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c218ce1817f8d356f6a501bb80548063 DependenciesID=6d05b2d2ed570a0a97c7c33e25da2aeb StaticDependenciesID=79a96e2553fdd37e79a87e61b873236d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/Graph/ui_navigation_graph_delete_waypoints.psd
+  importAddress: Guid(d438572fcb17b304fa34f1557aee2a9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/Graph/ui_navigation_graph_delete_waypoints.psd using Guid(d438572fcb17b304fa34f1557aee2a9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5f8109a342dc3eea7f58da237a935b52') in 0.0256719 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c90552fc4f9399156d0ed26435eac365 DependenciesID=c6f8910f51f1d39ca06770ed2238fd2f StaticDependenciesID=e2e2126b3e104b804c2d0af24cc922b3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_1 line yellow.svg
+  importAddress: Guid(1bf2e7ec9130546c8ad88cd39266b800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_1 line yellow.svg using Guid(1bf2e7ec9130546c8ad88cd39266b800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1bc9fdb8eb9af9e3c26da5ec01caabae') in 0.0230502 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b59c9368ea776f9c0ef2bc43c3541181 DependenciesID=ad1f96e632a3a39e401a41a3c47af2bc StaticDependenciesID=2e68cb1ceae01fdbf833599ec1f3a206 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_arrow_up_64.psd
+  importAddress: Guid(bc563397026df4d46aaef0cf4eaa3c00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_arrow_up_64.psd using Guid(bc563397026df4d46aaef0cf4eaa3c00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '295be2bb584f56441f03bc6e1b96856e') in 0.0201187 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec7e399831c9b1d2f2b271c538eac728 DependenciesID=1ffdf1d2a6b229bdac6c643f821c506e StaticDependenciesID=fd253eb0d728141d49d0d915900cab6a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_notification_warning_icon.psd
+  importAddress: Guid(6bdc23b3f6b3845c7b0f8da539d58f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_notification_warning_icon.psd using Guid(6bdc23b3f6b3845c7b0f8da539d58f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '90390145d83043b8d24d2789a0860476') in 0.0214031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f8a76430e6c7d268a24f8a2c4b76da2 DependenciesID=cb4c62a700b70ceed912bf00a4bb220c StaticDependenciesID=6e11e8cbe861233a8d5796832e37de2d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/IDispatcher.cs
+  importAddress: Guid(57ab9b44e5a3945ca83924e7f1531045) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/IDispatcher.cs using Guid(57ab9b44e5a3945ca83924e7f1531045) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5445ed73c0db6a3359b65dca40d2e3a7') in 0.0110923 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd4b6a626e50dc722aa62841fe710177 DependenciesID=da0d6456b456ec83f5b8b2fa2080ca2a StaticDependenciesID=2c929aa9686e3d1865962c103cdd84c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Util/Pose Indicator.prefab
+  importAddress: Guid(3957475b83c974a208d245721185ae5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Util/Pose Indicator.prefab using Guid(3957475b83c974a208d245721185ae5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b09f82c53bdd301329ad6962969841e7') in 0.0466572 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8da5dd00886eae4973adfc1135a3bc4 DependenciesID=c46fccc74d0b1d874ecc682824ee300d StaticDependenciesID=e812d882b51e00a74454dd66db33d095 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/tex_path.psd
+  importAddress: Guid(24ec085052be1e442b5e2730a7bc62ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/tex_path.psd using Guid(24ec085052be1e442b5e2730a7bc62ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f34676f20969c94bd02486b8c81312ae') in 0.0192754 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50563997487d034999ff9374a87be611 DependenciesID=a8ea01a77024c96bc1934cef422a8863 StaticDependenciesID=676a362dcf54a5f10afe1811bb66fe7b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XR/Loaders/OpenXRLoader.asset
+  importAddress: Guid(f89423eaa64e71e4aa54809968a30e63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/XR/Loaders/OpenXRLoader.asset using Guid(f89423eaa64e71e4aa54809968a30e63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8fbc988c3ee8f6bc773e94cca3647195') in 0.0191512 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=049056ee7cf8e623ec485d628e7e6e4b DependenciesID=32a848c52ffcd8da6ddc830370e9e694 StaticDependenciesID=df25d5ff308f425a91e3fcb3a47f5f74 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_notification_success_icon.psd
+  importAddress: Guid(e48ea19341740414798806a09e86c058) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_notification_success_icon.psd using Guid(e48ea19341740414798806a09e86c058) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '41abf9cf9f35b1087dfe27bf65599be0') in 0.0196881 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa609783894e38afe17219f958a15ddd DependenciesID=2b0ba23c6a9bf49208204c987812d4d8 StaticDependenciesID=b4fe0263171b0b8b994c9370a44a47a2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Navigation/Graph/Waypoint.prefab
+  importAddress: Guid(44ffb61a04c506f4ba6bb8225ebd621a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Navigation/Graph/Waypoint.prefab using Guid(44ffb61a04c506f4ba6bb8225ebd621a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c845f77d2973f0df9d8362be16d5420e') in 0.0381381 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02492b08c2749b0b9b736f287a6ac850 DependenciesID=abea8009d49bd5619d608142de58c4b0 StaticDependenciesID=288f928032d304417730a83997478245 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Navigation
+  importAddress: Guid(df97e771d5d73d7428996371bbeee88c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Navigation using Guid(df97e771d5d73d7428996371bbeee88c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd3f8c46f6e8263c0e70e75524bc7b577') in 0.0102637 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99c922f9b76c3bb52d426b0bda35dfec DependenciesID=5ff7cb38ba3b24c25fb9181d27020b54 StaticDependenciesID=308f91bd97e1e700932c4a89344d898d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Content Placement/Content Placement UI.prefab
+  importAddress: Guid(35f0455c806a3ea46a135cce86ca3251) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Content Placement/Content Placement UI.prefab using Guid(35f0455c806a3ea46a135cce86ca3251) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a5d516b8e2044707980171bbfc584858') in 0.0281795 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a5884d2011c0479a497b990842ed1aa DependenciesID=5669bbb46de1bc152f701d620ca23fd3 StaticDependenciesID=8e0608b3a6bc334f13ec97d08763d3b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/EventNotifications.cs
+  importAddress: Guid(caae6bb2149894764a07f586eefa8537) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/EventNotifications.cs using Guid(caae6bb2149894764a07f586eefa8537) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '59ad84d247415521099a5c8676226976') in 0.0093869 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dabea7bcc1863c58b34aaefa215bd5cd DependenciesID=74224094d7c9605259389acaa3254789 StaticDependenciesID=e26286bfd274dc6bce62a709e27259d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/Roboto Mono/RobotoMono-SemiBold SDF.asset
+  importAddress: Guid(c2f631b247758c043ac7a7ef55f13586) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/Roboto Mono/RobotoMono-SemiBold SDF.asset using Guid(c2f631b247758c043ac7a7ef55f13586) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c08e82c2b486b6100a6416f616605b70') in 0.0360898 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce85758b69d5686c05e8759c005d48bd DependenciesID=9ba4ba2cbc019c6621c871a7fca2f0d9 StaticDependenciesID=6ae30b1b0bb5d8193569b61c5eb7b934 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Shared UI/ui_rounded_rectangle_128.psd
+  importAddress: Guid(89dffd89317de754aa3e4528b7b86951) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Shared UI/ui_rounded_rectangle_128.psd using Guid(89dffd89317de754aa3e4528b7b86951) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c071f51103bf2a476a6d19c513b3979f') in 0.0149505 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5947e15373a77468a509da2fd38c1af9 DependenciesID=68a0d2a0c502cc0794e86ee6117cacc5 StaticDependenciesID=e0f5036e601c9f27bf91de838f539b12 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Navigation Utilities
+  importAddress: Guid(a107ba699d860bb42b02866bacb7b088) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Navigation Utilities using Guid(a107ba699d860bb42b02866bacb7b088) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a4b7201d563a63b5390db86460957d74') in 0.0083931 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07564854019f5a92bfbc88044d0bfcde DependenciesID=fe39f8a56f9002389a16174f04609d69 StaticDependenciesID=31d0833beae070bc7c212c98c116d096 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_main_poseIndicator_lost.psd
+  importAddress: Guid(9f79cf54588cf4bcea56f80f8d30f5ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_main_poseIndicator_lost.psd using Guid(9f79cf54588cf4bcea56f80f8d30f5ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '658eda38767caefcd32e5323b5ea6a64') in 0.0146423 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe4f8f351e4d529183ba7ed3309fe903 DependenciesID=71502f0405c3e6c648e61c0176517fe9 StaticDependenciesID=58296e1b46810b92a641935e2952cc4e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/Graph/ui_navigation_graph_add_waypoint.psd
+  importAddress: Guid(290d153df8c952f42921899a9c967c73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/Graph/ui_navigation_graph_add_waypoint.psd using Guid(290d153df8c952f42921899a9c967c73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '297d0dbe1104ae93bedb460fbdb32f0b') in 0.0205587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9afbd677b0dba49eb6e4b9525f7c9575 DependenciesID=ba8a8e6b6d639fd183c2db31f6847b93 StaticDependenciesID=a2a6db90f16a514ff1a236699eba683c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/LiberationSans
+  importAddress: Guid(6fc14a78783cd194d8cddda28465231e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/LiberationSans using Guid(6fc14a78783cd194d8cddda28465231e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f17da6f696c4dd8c53bfb006dcb295b8') in 0.0089183 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1540693e5a4227d7a9e41e09e9a8095a DependenciesID=5a13cc5f234247e5b2df01877a719206 StaticDependenciesID=4796d4110ea77591f9af489c25b633b4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Graph
+  importAddress: Guid(57b614f145a8dda4ea79ba5f10fd0b09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Graph using Guid(57b614f145a8dda4ea79ba5f10fd0b09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f06bbc7c2bbaa2cd2d03666e756f31c3') in 0.0081554 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3403190d0b9e443a6b4d305b2ad7f8a3 DependenciesID=47595ff449ad36dd4b61113d9b7cb883 StaticDependenciesID=a6a49445ae1217ea177dd509fe9ba9dd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_rgb_256.png
+  importAddress: Guid(2c55ad50e8371bc45bb2b06b08a5f34b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_rgb_256.png using Guid(2c55ad50e8371bc45bb2b06b08a5f34b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '51cca09b06e48f8ac210a4a180f0302b') in 0.0210863 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5d6c4f83e4d6216ef7f43ed1929389e DependenciesID=1cdda951a7d0105405874e61b536be73 StaticDependenciesID=2bcab6722745de285b96082bd14df7e7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_notification_error_icon.psd
+  importAddress: Guid(be671a1b102187f43968c90c51621039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_notification_error_icon.psd using Guid(be671a1b102187f43968c90c51621039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c71e922f2d7f30c4b66bc9e98b0c32a3') in 0.0149616 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b6db0a73aa5de9e43b390938351e4e1 DependenciesID=794900d2b694a2abf3abf10dfd9b2372 StaticDependenciesID=9448ae07b7330a5bc1ed15b5934183a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/DebugConsoleToggleBehaviour.cs
+  importAddress: Guid(4fd683543b032194dbd9193c3f05901e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/DebugConsoleToggleBehaviour.cs using Guid(4fd683543b032194dbd9193c3f05901e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9b638914e2ad868ce0f4354140f9634c') in 0.0091606 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6eb8c4b3a9c228a090e9b3265a29b2b2 DependenciesID=93d512282ae1122883671f2c59a62617 StaticDependenciesID=0ed3a8c9c64b5206265602753caa398b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs
+  importAddress: Guid(6d70ba40a7f184ad687e0d5b50a0453c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/HorizontalProgressBar.cs using Guid(6d70ba40a7f184ad687e0d5b50a0453c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f4ceed4f39d8701cff6330b35a037a5f') in 0.0110305 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=508b7f739f66aa9f4c7f9df560434d5c DependenciesID=a0022c490deb832e7b0950d9cb698d05 StaticDependenciesID=ebd78257d40f0b8ccf0a61297af3c9ba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_switch_mode.psd
+  importAddress: Guid(6f8d088c4c55de340b1d74d25c2360b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_switch_mode.psd using Guid(6f8d088c4c55de340b1d74d25c2360b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '01a58a104e7c2d3078742f8c2e9fdca0') in 0.0252735 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93cd8cb06f4326ec8f5f07c9841c7da9 DependenciesID=8093e3407956b0e3699f9594732fc2c7 StaticDependenciesID=f84047a7849bfa1c994d021f51afe502 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Mapping
+  importAddress: Guid(4288caf2db6504c5d94b893b8c543119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Mapping using Guid(4288caf2db6504c5d94b893b8c543119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd25d02bc89ea3f0f608e56d81a8a8ad9') in 0.0091682 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72aaa4640eabbd78562b36251ed81684 DependenciesID=3b5651b2461be0113de896bf64caa4ea StaticDependenciesID=a3a6e5b8b258eedab9517bb8f462208b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/AppStore/bg_formfield.psd
+  importAddress: Guid(66d31b7daf7344bf787a7952fe73b5fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/AppStore/bg_formfield.psd using Guid(66d31b7daf7344bf787a7952fe73b5fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '362255f7c1876d2ab39f91c0a1dd1e0a') in 0.0210781 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=293bd37ec0fce8d4234e630b507131ef DependenciesID=c22612cb0c2a87a649541171af68e472 StaticDependenciesID=4ad7857ebe09d9f7622319f9b5a747cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/icon_toggle_rgb_on.psd
+  importAddress: Guid(d1ecc4f60c69b494a99f2d1423eb027b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/icon_toggle_rgb_on.psd using Guid(d1ecc4f60c69b494a99f2d1423eb027b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'da590afc8e8d8f023f70d5c90850c172') in 0.0203347 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=30ba67fd16cf10a8f822397176612ad8 DependenciesID=80408c6861b47bff1bf42a8964798fed StaticDependenciesID=93eb1cf2b6533c1810e5bf29e1020778 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_1 line white.png
+  importAddress: Guid(8f7941c3d960b43448c58151204f2fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_1 line white.png using Guid(8f7941c3d960b43448c58151204f2fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '232c3cd940824d97e9870fa7e5040c92') in 0.0238081 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=930c1aa00f3abe721a09342df406de6d DependenciesID=48d898a9288b39f6a361b69bfb7d2bdb StaticDependenciesID=6589041dd1ffe8872f63257ae74e4a6f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Content Placement/AR Diamond.prefab
+  importAddress: Guid(9f3a62c3a64e96a4aa6c44ff209648d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Content Placement/AR Diamond.prefab using Guid(9f3a62c3a64e96a4aa6c44ff209648d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a64ebfc4694a42a591d1da9e7b85ba31') in 0.0218581 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=553d6c3d3152f4225687db40d62a52d3 DependenciesID=291a1fec1f07ddd92ada695bee86471f StaticDependenciesID=13abecd2eb72c21b165c5573a7f86b47 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/icon_ar_app.psd
+  importAddress: Guid(a2f8cdbfc5b9c4164a227835e57331cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/icon_ar_app.psd using Guid(a2f8cdbfc5b9c4164a227835e57331cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd8b410f96b373359947b40648e5141be') in 0.0215777 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2815acf307a78feb1a91e831fcfad724 DependenciesID=19919aee3bc4de6c770847497954d5f4 StaticDependenciesID=930f93dfac98bcf51e4c14bb0e8f519a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_arrow_down_128.psd
+  importAddress: Guid(873d49ac8e29f445686964fecf9dc9e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_arrow_down_128.psd using Guid(873d49ac8e29f445686964fecf9dc9e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd4ac078e985fc5ff4a83d7886abf7274') in 0.0204 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37897c2a3f48bc964061d75a7c7f76fa DependenciesID=cf37565f1e561652397b3d61d0ad9135 StaticDependenciesID=f57dfe7f531faa8aa5cdbd93dbe35aa8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Util/unit_plane.fbx
+  importAddress: Guid(a6850645a8ef9ef458111ffdbac35561) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Util/unit_plane.fbx using Guid(a6850645a8ef9ef458111ffdbac35561) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e7c2e4df748a632be76b28071b75ffe') in 0.0173172 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7ed87416f24ab7d89fc1ad76f7f03de DependenciesID=7d03f7d5a09a9d34a0c27ba53ba420e2 StaticDependenciesID=fe0dc2b3f97bc50c1e6878d410ce9122 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/CryptoUtil.cs
+  importAddress: Guid(175a14df11ec2465cbca8264e1ae58fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/CryptoUtil.cs using Guid(175a14df11ec2465cbca8264e1ae58fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1fa4c8d87b93a065654fce16c0b9cbef') in 0.010485 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e667e7e650d15018b4b0b2edfd175c2 DependenciesID=69efc800460f7a5984b28c302b201f07 StaticDependenciesID=b0425114326d8055ce6788c89f399491 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_cross_128.psd
+  importAddress: Guid(3e5908862759142b3bc78c06a039acd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_cross_128.psd using Guid(3e5908862759142b3bc78c06a039acd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '012006b0f4119783ab614fe4bab4e5fb') in 0.0195652 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e92e946c291698fd0ce21a055c517a1 DependenciesID=90a996db4ab4e8027798b2200497b6e2 StaticDependenciesID=6ab36fa6b394cde568bbe00d1e656ecc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_arrow_up_64.psd
+  importAddress: Guid(eafec940a47039d409b68c3c8aff85fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_arrow_up_64.psd using Guid(eafec940a47039d409b68c3c8aff85fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2a96dcfe7527ac65801ba388782f4748') in 0.0218257 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2c44bdf1eea469bc61e67ae6ac7c7f1 DependenciesID=90f6ce1c1afe44d220d784e3a5227bb2 StaticDependenciesID=c68982cad7aec7665e7945f2e26542f1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples
+  importAddress: Guid(ae14cefe24b8cc44883c6a4d38893fe1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples using Guid(ae14cefe24b8cc44883c6a4d38893fe1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '874894d8b75d1e4041f880819315494d') in 0.0106441 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d10bce06e6bc67cab2dcc29b9f03a34 DependenciesID=c1304f2320d1c3097928dc9a7218f531 StaticDependenciesID=4059a229ebf70c907b13ba700b7f5779 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90687-SampleMapA.bytes
+  importAddress: Guid(3c507f2a7ab2b445a8253136dcf7360a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90687-SampleMapA.bytes using Guid(3c507f2a7ab2b445a8253136dcf7360a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '65e12e9a8ee3e8cb91714040deb8e6ae') in 0.0164432 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=057a19df3aa05892305c6a8d15423d26 DependenciesID=ed675d033a0a25e83570ae3719a40e02 StaticDependenciesID=9786ab4d1545c9603189e57a7c116b2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/icon_toggle_on.psd
+  importAddress: Guid(76a02054f0027b44692000d98f9de61e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/icon_toggle_on.psd using Guid(76a02054f0027b44692000d98f9de61e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3a876c1b35e1960d7d871435008a4620') in 0.0221829 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de560dc1c553144e7040c8f91c47c19d DependenciesID=21695fd7dac4e7b76f793d56744a5707 StaticDependenciesID=16d2f33c8b888a3570bc7d0a46f09a27 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Util/unit_sphere.fbx
+  importAddress: Guid(7be5d19d5e814384da9760349260cc0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Util/unit_sphere.fbx using Guid(7be5d19d5e814384da9760349260cc0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ca06d5fc6ae3f194c9179df0e55fcad3') in 0.023677 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=094cbb0a31de7b309a6b7df54100c23e DependenciesID=659705260b7592dba2bf073b8692cf5b StaticDependenciesID=e3530062a5276f2a28836abf4b87aec3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/LocationUtil.cs
+  importAddress: Guid(72bd8d0f6b19b42728f10904938b33c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/LocationUtil.cs using Guid(72bd8d0f6b19b42728f10904938b33c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '685da2ce94f7fe1a5704be4c9c428727') in 0.0097458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5399e8b9b598abf5b01132f7fd1ec9aa DependenciesID=d2314d2ce86764fd3353f74e9c76d639 StaticDependenciesID=bc2d3cef7e9a8c05dfdfecf047785eed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scenes/RealtimeMappingSample.unity
+  importAddress: Guid(f455d73f673834d5faff12c2dc9cde1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scenes/RealtimeMappingSample.unity using Guid(f455d73f673834d5faff12c2dc9cde1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bd090dc7ed22a9ecfbb50b62c886e1e3') in 0.018757 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc815ff4c48d6109d34960a14590c67a DependenciesID=ca11ffe5d389f0b1d4904e91ba637c82 StaticDependenciesID=b72e4395a8719def9e065c687edaf6fc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_notification_success_icon.psd
+  importAddress: Guid(12fdd5cb4d3bace4cb8cdb4a5c685408) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_notification_success_icon.psd using Guid(12fdd5cb4d3bace4cb8cdb4a5c685408) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '71126a51caab845fd99352e5649f75ef') in 0.0157861 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5189f0c5f760cfd5e8c18f515619596b DependenciesID=95318d7729e49d595c19f4544b88dbc4 StaticDependenciesID=524ab18b2f0495cefd58494ca317f058 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_icon_point_size.psd
+  importAddress: Guid(4e942a48db41dca4fbdac8630ba16e5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_icon_point_size.psd using Guid(4e942a48db41dca4fbdac8630ba16e5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2b7f703863e4b9aa2fd54433f0973f54') in 0.0224526 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dad409369068d769a9485d0916c30de8 DependenciesID=b9416715aff5715cf88bb5e0246e5f6f StaticDependenciesID=4e21f13a54908ec8ccf309d4f3a0bfe7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_revert_128.png
+  importAddress: Guid(97cd7f17883f5124e86fc7feac89c401) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_revert_128.png using Guid(97cd7f17883f5124e86fc7feac89c401) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3c3d13ada46b1bef7abd5f5e8852e22b') in 0.0196695 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3122b6c7cadc85895791d716be9d32c DependenciesID=a3ef9d8630db4e11a7a140c453706dff StaticDependenciesID=f15c5dbfc9e3b411a0f2f7c5263d1b1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90689-SampleMapB-sparse.ply
+  importAddress: Guid(edede802b5303438d87287066ebb5098) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90689-SampleMapB-sparse.ply using Guid(edede802b5303438d87287066ebb5098) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6df741cb57facc8f0eaf3845c935ee04') in 0.0086204 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18130039734e0025bd7a0163afe5f211 DependenciesID=7ebb26b7a11b098194a90fb0d6ecfb1b StaticDependenciesID=814183c6730165bd8162dc7c3f442275 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_1 line white.svg
+  importAddress: Guid(ad0131272f8234798a0c94e625070395) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_1 line white.svg using Guid(ad0131272f8234798a0c94e625070395) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b8ca6da6b51124046d4c7a71a2c32bb0') in 0.0176741 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2b7172b24b5c288579a09eb68042ebf DependenciesID=826a3d56d0f2f0f39b982115ece0f968 StaticDependenciesID=8d539f6104d2be1f8913d711280da5fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs
+  importAddress: Guid(571d309735e02ba489d16f43b8eb771c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Graph/AddNode.cs using Guid(571d309735e02ba489d16f43b8eb771c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '17d57d67856b2108d1f6186868de0109') in 0.0088762 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ac788be705383ec83d39d0a385998a9 DependenciesID=4e908f592a967fa55b504afadc94e09d StaticDependenciesID=2250e6cb42570390b393c4d2cffa3770 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scenes/SimpleSample.unity
+  importAddress: Guid(dc3a71fba008f4f2899362a3d0c1a3f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scenes/SimpleSample.unity using Guid(dc3a71fba008f4f2899362a3d0c1a3f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4aa4d5d1f505dd6364e4639a6141c4df') in 0.0194251 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2426bf501a18bbf76a64b0de2941cfe7 DependenciesID=3e08a7648376601215d2878bd6e6c5f1 StaticDependenciesID=66ae712a64a7acbf8d089d27f1653597 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/icon_toggle_on.psd
+  importAddress: Guid(0afef4f06a04f4969accf75d2e4c863c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/icon_toggle_on.psd using Guid(0afef4f06a04f4969accf75d2e4c863c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '90b598a1f9824da41b7dca04a8760ade') in 0.0245842 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3b8eac2e579b945045f0e38b17e1f43 DependenciesID=fbddd55d8552e84183301fc8c347ca0b StaticDependenciesID=578b5cf2371298849a37f263cc07749e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Content Placement
+  importAddress: Guid(c34a88d171106ce4b9f00034a31674ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Content Placement using Guid(c34a88d171106ce4b9f00034a31674ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3c96f52c746c5d7bf64f754bbad960e6') in 0.0091244 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4834f78f1a8c097687da3950bac4a73 DependenciesID=f289f16cf22eeffcf1a03f2d97ee0c2b StaticDependenciesID=b6425735463f9b213883aa172700f34b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/immersal_logo.png
+  importAddress: Guid(9c72351cd255e43dba7e3622160b16aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/immersal_logo.png using Guid(9c72351cd255e43dba7e3622160b16aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd91db6f7474ecb1ffc3502d4d3342407') in 0.0213443 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e19f865d6efc990f3da914d445e32fc1 DependenciesID=165e3f3182047dd2c019b1d17322498f StaticDependenciesID=0b87ba6183c56e823079688b7be0de61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Navigation/floorplan.fbx
+  importAddress: Guid(c44b7c678439a4eaa98ca0c8e0f492ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Navigation/floorplan.fbx using Guid(c44b7c678439a4eaa98ca0c8e0f492ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'efae4d5a0ac9ae604853000cb2ffab8c') in 0.0218976 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f27e6213106366b17e8bedc1b30c266 DependenciesID=d519c5c0f2381964f9b692c00234d516 StaticDependenciesID=b3cfa0154e9bb095e090797df1e3f620 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90690-SampleMapC-metadata.json
+  importAddress: Guid(98a3ddd874edb44e185895e4db009b58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90690-SampleMapC-metadata.json using Guid(98a3ddd874edb44e185895e4db009b58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '705cbd4bbdedbf5cf18d2ce691808ce8') in 0.0138647 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5910b6e0341530762db4708ef592735 DependenciesID=c3e94f20bf639f365a59c5da39cf09ad StaticDependenciesID=d38909acfc29b06b34a65adb2b4bea24 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Navigation/Navigation Path.mat
+  importAddress: Guid(1f5a9ae0f2121ff4aaa6ea4ead3f1332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Navigation/Navigation Path.mat using Guid(1f5a9ae0f2121ff4aaa6ea4ead3f1332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cab25b7612add9b89061629627563498') in 0.0188105 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87d032703c84cd0a3e444b558714a20f DependenciesID=7c8f43025ca46ba5de9029a87145e628 StaticDependenciesID=5a67ba58572565a2ed1469ac533bbb29 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/Fader.cs
+  importAddress: Guid(cd4e1da8bf23b48e599b126bd51e0fce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/Fader.cs using Guid(cd4e1da8bf23b48e599b126bd51e0fce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6433c92c082032e2e525f13e516257a8') in 0.009046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0a91c61e7a8e357c4ec1dc0651a6f4a DependenciesID=f13843c29c4c10f97f075a0ecff34ca9 StaticDependenciesID=2a45bb15789e0594235ff806a8f3d401 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scenes/MapDownloadSample.unity
+  importAddress: Guid(102313a1435aeab4495fba8049e28784) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scenes/MapDownloadSample.unity using Guid(102313a1435aeab4495fba8049e28784) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'de4b165538efadea74ea5b521aa58d1d') in 0.019089 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c4603038fc35bb82ad4ae7db9a2af60 DependenciesID=64ee31941fbbe84003ca213965ef6138 StaticDependenciesID=8efb46187c319b4bb8c98880f6404c25 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_2 line black.svg
+  importAddress: Guid(9b230ce419fba4cab9724cc541599bd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_2 line black.svg using Guid(9b230ce419fba4cab9724cc541599bd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '181ab94bdede3fd104967fa2ce7b8c12') in 0.0175734 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a60a53b88250d9a8e3cae2aea6b7cfd DependenciesID=f22507a8624b946c277c63cc2c8030dc StaticDependenciesID=f58826293a70d074a2a0f718da0df183 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/AppStore/logo_immersal.psd
+  importAddress: Guid(1c01768e80b8f4119b9a652e560ff653) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/AppStore/logo_immersal.psd using Guid(1c01768e80b8f4119b9a652e560ff653) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c35734d48598666bf7a8c64a2585315a') in 0.0213589 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7d1c899c851cd421d9f8d8a55eae6f0 DependenciesID=27e8e77c177dcd9d800ab29f34e9dca2 StaticDependenciesID=0a04f143bd9b40b7119fa2d3a2534313 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_to_origin.psd
+  importAddress: Guid(b31c82cde3ab6c34fab238113cdf1780) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_to_origin.psd using Guid(b31c82cde3ab6c34fab238113cdf1780) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee002329fdef9c25c763f54aea4847cc') in 0.0202384 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d8934c7d196f65edad11f502822a4af DependenciesID=5a7f3960af2014de03724d282ba7b4a1 StaticDependenciesID=083e95581bef12ceb77c7edb9e17890b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/DebugConsole.cs
+  importAddress: Guid(99db7e9cec4493147889490eb33d63dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/DebugConsole.cs using Guid(99db7e9cec4493147889490eb33d63dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2bdfe6d264740bdd4b41d57823d6cf5') in 0.0112891 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3becb7c18c1a5d45dbfeabec5e01d45a DependenciesID=ffb6852e2fe5368fb8c736824e182ade StaticDependenciesID=28ce6e57c901a3307566ed1ead057be6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Navigation/Navigation Arrow.mat
+  importAddress: Guid(13a713cb6c6943a46904204954492a13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Navigation/Navigation Arrow.mat using Guid(13a713cb6c6943a46904204954492a13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '33c63a0c3ac173282ec4e096f7967568') in 0.0179455 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb934c1849383cee554daa9bfff65b83 DependenciesID=00df570b73e5bd37d4131fb62aa61b50 StaticDependenciesID=70301369a2c032ca3a4598238a5e782e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scenes
+  importAddress: Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scenes using Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9149036f8317026c96848263e519c1c8') in 0.0083385 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63d54f74de01207e27102d3b9bb4daf3 DependenciesID=5ca613024c933ebbd1415a6ae5c0f2c9 StaticDependenciesID=fe77f6fccecdc69c17977d91f7b2ef0f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/Graph
+  importAddress: Guid(71f0f2dd77afb7d4ebbcffbc71c5174b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/Graph using Guid(71f0f2dd77afb7d4ebbcffbc71c5174b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cfda782cdb07cdb6e97da23036952010') in 0.00889 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc3e3336c66f2f4ffe547e4d40c114ee DependenciesID=f7de2f91e185c7e0017c544e04cfae2e StaticDependenciesID=9b724bfc38486d660dbe14d2f058d0e4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map Data/138603-Bedroom.bytes
+  importAddress: Guid(2edcf6a12d715ce4f8ba1d7e9b1fd626) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Map Data/138603-Bedroom.bytes using Guid(2edcf6a12d715ce4f8ba1d7e9b1fd626) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f5b631ac3f84f8b1a0b28c047b2c0b0') in 0.0088946 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3eff0a2d7d19917df1cef165f31620f0 DependenciesID=2b858ac16d6c1406ce707c394d462ec7 StaticDependenciesID=710b382a95c495b88c75d59c489503d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/SampleScene
+  importAddress: Guid(e7265f81e42d5274fb7633ef67c511ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene using Guid(e7265f81e42d5274fb7633ef67c511ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fa3f8551d288fcb68a33f99859532673') in 0.0089778 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=463facfb397d4c66ab267d99ef5bf77d DependenciesID=82dcdc4d533c97e4d72fcb5557b276ce StaticDependenciesID=10f7b83da9731c3a56b6f6d2f54876c8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map Data/138602-Livingroom-sparse.ply
+  importAddress: Guid(d68940b1a702a024b82e492c3f12c097) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Map Data/138602-Livingroom-sparse.ply using Guid(d68940b1a702a024b82e492c3f12c097) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '43956f284dd038b47f434fc41a33b25b') in 0.0085796 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7663fc8521aa5c7346192b661ec16d1 DependenciesID=43ff1da4a4117c4f77303285db08ae0d StaticDependenciesID=5f14cea4be07c992744776c24102f4ad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh-Plane 2.asset
+  importAddress: Guid(14a75ef920febc84bbc608d4c2666716) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene/NavMesh-Plane 2.asset using Guid(14a75ef920febc84bbc608d4c2666716) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e64f623796ec1a9c5e2d683d300d2628') in 0.0104158 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d89412629a65dc96431d12ca685c64d6 DependenciesID=a9e1a71d14faceebe2fa43d290835805 StaticDependenciesID=8b77a33912f5003d4cd96d77602c2451 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh-Plane 1.asset
+  importAddress: Guid(cf4769600aeefb942b62e46e47995b95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene/NavMesh-Plane 1.asset using Guid(cf4769600aeefb942b62e46e47995b95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b494674ff93a091330d2820c1561d13f') in 0.0103715 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54313278882c5501b5c8caff06d3721b DependenciesID=57e161dd3cf9992bd7ef9a96a40913e9 StaticDependenciesID=6a38a3807deb4a8f8e32d39c57ba8cd9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_construct_128.psd
+  importAddress: Guid(e84b061f40bc72644ad08b6da38e35ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_construct_128.psd using Guid(e84b061f40bc72644ad08b6da38e35ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f86161787e8d59907785911b4d083f00') in 0.0268301 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f06c6fb9021e3c671f38f97733df487 DependenciesID=2e1727c22230576aff7ad987e2d6ea42 StaticDependenciesID=9afba26814d7101aa8d1211f7e72f3ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/LocalizerSettingsPanel.cs
+  importAddress: Guid(fc0f438967d23ee4499e86b0b45062ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/LocalizerSettingsPanel.cs using Guid(fc0f438967d23ee4499e86b0b45062ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '91bfb2f1f58b5eee4c870f155c1fbe57') in 0.0104654 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=632ce00800c46de02e831dd44d99fa85 DependenciesID=554f665c903dde984c55968ed62de478 StaticDependenciesID=1670ff37e8cb3f957af80c7be8e60b12 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_checkmark_64.psd
+  importAddress: Guid(74dc8fca58fd77842ac534d18e7711c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_checkmark_64.psd using Guid(74dc8fca58fd77842ac534d18e7711c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '43a95cbffe402831f65557e76e44f3aa') in 0.0209865 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=05f2b1f86e5110afbf941d83fee09343 DependenciesID=9323ebd239d225e826890dd017961482 StaticDependenciesID=e81b4500f7572b1d5996b261c24fa1c9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/NotificationManager.cs
+  importAddress: Guid(db291eb5cf38d48ae9e24e8a7b047e8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/NotificationManager.cs using Guid(db291eb5cf38d48ae9e24e8a7b047e8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cdb53902486c8c2384bf2ced93072e41') in 0.0096848 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef0b8e34a37e5d5b9d75efc75a44e7fe DependenciesID=8daf43ff3b3a6eaa0c437f3568a8b841 StaticDependenciesID=861171948ff94fe1cf7c9f7e0a1e87e1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Shaders/NormalOverlay.shader
+  importAddress: Guid(2af2bdbd30c0f434fbad8fef4871f547) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Shaders/NormalOverlay.shader using Guid(2af2bdbd30c0f434fbad8fef4871f547) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7732b973905f5aa13bd4a7071e15d064') in 0.0130301 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd1770a49d1a3a555edf6e0f2c500587 DependenciesID=630a15a6248c421d3426a392edfb43ed StaticDependenciesID=fd29590145ceb6b6b56994bdca628d47 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs
+  importAddress: Guid(bed6c065c95e41e4b947ade9f673fac4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Graph/WaypointsUI.cs using Guid(bed6c065c95e41e4b947ade9f673fac4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2e3aedaef0b659b048846630b826ed57') in 0.0094904 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1989bb1e6715e434f941146fce24a64 DependenciesID=85e32aed5608b4fee3b0bce8f393b1b9 StaticDependenciesID=440b580fa4190700ad0e2d545edc2edb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Content Placement/sprite_hex.psd
+  importAddress: Guid(13eda642c9fadec4c8fc347df1d86c91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Content Placement/sprite_hex.psd using Guid(13eda642c9fadec4c8fc347df1d86c91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '868832e8ca596458a1ca5973f1c432e4') in 0.0151747 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e3591ef966b6ed3ded22b525dcd72c0 DependenciesID=e7e5bf418d8c5ce5d7c51b7a2af0c3dd StaticDependenciesID=5f2a587a914b663045bccb67fbc740cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_restore_map_128.psd
+  importAddress: Guid(5c01d34a4947f18418faa58a2eddf39a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_restore_map_128.psd using Guid(5c01d34a4947f18418faa58a2eddf39a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c33145d4812c38486541df8bfc27bd74') in 0.0206032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28726397a9a6662b7e46dc39b060aade DependenciesID=32386882190b30c68b1a2fb67d41e454 StaticDependenciesID=06da27665abd02b77e4595e8361db425 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Util/Localizer Settings Panel.prefab
+  importAddress: Guid(aabb5de1a11007f4fb8a99ba94339216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Util/Localizer Settings Panel.prefab using Guid(aabb5de1a11007f4fb8a99ba94339216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cefd24221e78e542de5e22a81dc64885') in 0.0874117 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3661ea50f54071808399c9aec52a0466 DependenciesID=3eae9b3560c851b546baa45dc3e2e9b5 StaticDependenciesID=f6fce7bbad4c7abd371e6a0822191ac6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 214
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_2 line black.png
+  importAddress: Guid(a30a2b75b74c843acb75c2f493f84c01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_2 line black.png using Guid(a30a2b75b74c843acb75c2f493f84c01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '82cdee9e60b9c3ee90c865285b360e78') in 0.023651 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7bdb76ce51ad24d0dd6438fda968124 DependenciesID=56902eca000d2614125153825283b0c5 StaticDependenciesID=5b1e348a23d4b41560774cd374459be3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Util/axes.fbx
+  importAddress: Guid(4163384ee18671240b3542ada1601568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Util/axes.fbx using Guid(4163384ee18671240b3542ada1601568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '51411b91143db6802cf7b717429a13b0') in 0.0170505 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85318b9cddb6efbd73d932931cd1987b DependenciesID=276efde7a0c887b354ed1ae101577cc9 StaticDependenciesID=634b72b71718158a46cdd0391545278a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/MapListController.cs
+  importAddress: Guid(12a6b90440b704e05a690c049108c933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/MapListController.cs using Guid(12a6b90440b704e05a690c049108c933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e14c3695a6a81d251d4a3d931798142e') in 0.0098722 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52c0af7c69300dea8692f0bff7f37056 DependenciesID=ba4814a157c31f313540245d17525897 StaticDependenciesID=d58cd3d61acf8d62dc8c0c3a0228be77 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Navigation/Graph
+  importAddress: Guid(a895269c1e684604d9534898a03971cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Navigation/Graph using Guid(a895269c1e684604d9534898a03971cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ededc2ea0ba40fa1d109861fae5ce02d') in 0.008685 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19cd1445e6bd025ebc1f9d02863be9f4 DependenciesID=3cade9a47b0ab4715a2cec117f168645 StaticDependenciesID=67d34dbc5b3b6944c4694e16be3fe3a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Shared UI/ui_scroll_list_mask_512.psd
+  importAddress: Guid(5db45759de80f604d9b90462f70891c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Shared UI/ui_scroll_list_mask_512.psd using Guid(5db45759de80f604d9b90462f70891c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b41b3fdc1ccad903c37cd7f1b135f6a1') in 0.022712 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=271e3fb021fe96e5a162b791aad7d8bf DependenciesID=d7f00cb8cd879baf33c86e661e7d5423 StaticDependenciesID=ac75c7256587f8b7fc6e57064976aa76 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Navigation/Navigation UI.prefab
+  importAddress: Guid(54cb9a8b5c431e84ca2942c39c10b316) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs/Navigation/Navigation UI.prefab using Guid(54cb9a8b5c431e84ca2942c39c10b316) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6a8f6c96212a53971f01493f183e5553') in 0.0494837 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3aa80b93cc6cbed8b6ed2c4ee5fdcbf DependenciesID=23f19acc37adbac2542ea735a3994a35 StaticDependenciesID=d8aa8e3098fccb91104ad1557e8b274d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90689-SampleMapB-metadata.json
+  importAddress: Guid(7deb300143e4945089e81e8b5912bd58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Map Data/90689-SampleMapB-metadata.json using Guid(7deb300143e4945089e81e8b5912bd58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '19196e2e3897488d3af4a2a147dd9865') in 0.014707 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae5d54d3820ad2ec7e07469b7b6760e5 DependenciesID=840acdf832a23ab5a3011f1a47f65649 StaticDependenciesID=64092d70ee67c3db6c5bbc6c96564dd2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs
+  importAddress: Guid(61b93495bf5ed41a19babe1200d18bd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Mapping/RealtimeCaptureManager.cs using Guid(61b93495bf5ed41a19babe1200d18bd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4b7466da39107129016d710bfb8bb5d9') in 0.0087342 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=268115715657d269bc3bac3db8766ccb DependenciesID=99336581bcdf769f443c8b1b60b06ffc StaticDependenciesID=7737b5765ed01959f9a2049366c11bd8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/Roboto Mono/RobotoMono-Medium SDF.asset
+  importAddress: Guid(e5029ad341efd014aadcc68cfe46a302) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/Roboto Mono/RobotoMono-Medium SDF.asset using Guid(e5029ad341efd014aadcc68cfe46a302) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd34d229d21e20d5b6a8610c569ef0bb2') in 0.0364131 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45745501a4f14378411cde1524c5d402 DependenciesID=16fda956044514d1960a3001cfbee86d StaticDependenciesID=0c80e7029e5111ae48d4c8527e047bd1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Shaders
+  importAddress: Guid(4d3b57e17f6eb423fbbd5cad294df9f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Shaders using Guid(4d3b57e17f6eb423fbbd5cad294df9f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '657ddd25714aafc0c85aab0a39edfcad') in 0.0086789 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50ce1159a062e06cda5b71ca9e6ab0ac DependenciesID=adfe9224d5b14a3d207c44a10bc97465 StaticDependenciesID=2d7329a8a3e436192594e28459950563 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs
+  importAddress: Guid(9937899e997bec24193fc7d28d9bdcee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Navigation Target List/NavigationTargetListControl.cs using Guid(9937899e997bec24193fc7d28d9bdcee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'caea8ed21f558d1bcbd97acbd6691d09') in 0.0088666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f390240988f7ddd07d5f1bd232055ef0 DependenciesID=5ad2a93363118fe61c3f38cca026ff71 StaticDependenciesID=96f7babfb695a952bbc20e435849ff85 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Navigation Utilities/LookTowardsTarget.cs
+  importAddress: Guid(4291dbcfb7832d3428c5d335914b793b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Navigation Utilities/LookTowardsTarget.cs using Guid(4291dbcfb7832d3428c5d335914b793b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db366baa1a4a6ac11dbc97b0ed9596e7') in 0.0088334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07753fbb53e6837970baa7ceef6ee160 DependenciesID=3a71d98fb3c080495a194a1251f7859a StaticDependenciesID=39d567d9264554e9f4db5069a68527a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_2 line white.png
+  importAddress: Guid(f954835f2308444ea86ce285d89b5b7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_2 line white.png using Guid(f954835f2308444ea86ce285d89b5b7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3f8e7ceeb050dc47905b2b425d384164') in 0.0240228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c296cf16c30bdce1bf539c485c2ea7d DependenciesID=1d50d9557d895cc3e8fb82d586d7b2e5 StaticDependenciesID=b0d74b91c7982b437e226bf83539d9ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/CreateNotification.cs
+  importAddress: Guid(06c9b5ce2e6774d438034a05dd103b5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util/CreateNotification.cs using Guid(06c9b5ce2e6774d438034a05dd103b5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6175d92ea78301d9fd1a822d066ebad5') in 0.0088609 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ebf2092a998af05eedb36db4bc4cc967 DependenciesID=6e50cb5f6f8f4305876b1724542680e5 StaticDependenciesID=bab06ea03d5a1983794dc9e030563c4f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scenes/NavigationSampleGraph.unity
+  importAddress: Guid(64aadc60034154f6b9c3b6598552e733) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scenes/NavigationSampleGraph.unity using Guid(64aadc60034154f6b9c3b6598552e733) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '68c9b7033db5a639b6bd92b9df518fd1') in 0.0295893 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e08532d68c28ecb1ba9b4303f094ae48 DependenciesID=0ce8786b6a030061bc6a0fdf1a47d083 StaticDependenciesID=559b096c369d68201814270a9a9d62de 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/Graph/ui_navigation_graph_edit_waypoints.psd
+  importAddress: Guid(24cbfbb9f4bb0274ab77b526b979c0e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Navigation/Graph/ui_navigation_graph_edit_waypoints.psd using Guid(24cbfbb9f4bb0274ab77b526b979c0e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd5be527b8d6712abd3ab0bd1840fa723') in 0.0198784 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3daeed3061bdda1d151ee0af4e8f6c64 DependenciesID=bb330aa8a7051cef76ed17a15df5d66c StaticDependenciesID=952426f3afb40167570e0d3654c5f792 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_icon_visibility.psd
+  importAddress: Guid(9ce2ba4279a09a843839fb2548c61d7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_icon_visibility.psd using Guid(9ce2ba4279a09a843839fb2548c61d7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6cfde687e12e711092dfd276f029b8c6') in 0.0202713 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d05798835207c4ec4f829ae8a40cb934 DependenciesID=ccfeb0d64c17d36a8ee3af51fb2379f0 StaticDependenciesID=9f5bf20196845051015ce0fbf14b4166 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Navigation
+  importAddress: Guid(66d7094034535435482e13feda8d4120) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Navigation using Guid(66d7094034535435482e13feda8d4120) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '73f00556278973c5e980f0360685dedd') in 0.008377 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52d68e5fc81f2872f37bc593b2724f44 DependenciesID=79e7a3c9862f1754c13c957766af9f74 StaticDependenciesID=c2619770dbc4d95a34551c19331117d7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Content Placement/Diamond Core.mat
+  importAddress: Guid(5e8d7c16f21674d44aaf5042fbd6d9a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Content Placement/Diamond Core.mat using Guid(5e8d7c16f21674d44aaf5042fbd6d9a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '018d7dd1e49b76df416cb095e6a230a3') in 0.0365369 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=677bd6e3dadbff7f5fe3d9e8a2dbea65 DependenciesID=5f6609406107fc3679f0506572d82163 StaticDependenciesID=924ac5956be7a8d5272cb7287593f3ab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Content Placement/specular_dirt.psd
+  importAddress: Guid(0992efd558ae1e944937e38c6a9d5838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Content Placement/specular_dirt.psd using Guid(0992efd558ae1e944937e38c6a9d5838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1e328e3b924fc695e59ee13b712a2283') in 0.0148505 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a641c104627fad160b22289587a2ef8 DependenciesID=e609cd68c44e0b14cdb9b4dadf93096b StaticDependenciesID=0c7144824a4d583bbbc3bc35c08723c0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/Roboto Mono
+  importAddress: Guid(80e0062821125974db0239650672030a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Fonts/Roboto Mono using Guid(80e0062821125974db0239650672030a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a57017df42832c1ff88e27d0bfa5285d') in 0.0091062 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf7f6964a6c042953d6b4ffa1dac3cc7 DependenciesID=df60d8f5d9bc2539450447444a7f49a3 StaticDependenciesID=515d92f459f24df59f012bbaa2ee5a6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_progress_bar.psd
+  importAddress: Guid(8c5b842f89fe94a189404fce19806e30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util/ui_progress_bar.psd using Guid(8c5b842f89fe94a189404fce19806e30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e2ddb65dd8b062ac659c20d0a9cf5566') in 0.014581 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4340faeb61e02a70007e61f082b3fdc DependenciesID=2cd7b2763f4622e0618b2af703baf5d0 StaticDependenciesID=e547448f3a035ee5a79a4d89fd305207 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Util/unit_cylinder.fbx
+  importAddress: Guid(b61c345659f56414e91fcd4f6fbc6130) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Models/Util/unit_cylinder.fbx using Guid(b61c345659f56414e91fcd4f6fbc6130) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f5accd560c9811b2b317c438233bab69') in 0.0217099 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=710a857e3522fd6a6855f97fb2a8186a DependenciesID=c372b2d54d7875912f441c0efc784d73 StaticDependenciesID=316ff20c42e46fec0a5fb1e7d764ab11 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map Data
+  importAddress: Guid(88ee9d421b45bbc44a94b18674ab6cc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Map Data using Guid(88ee9d421b45bbc44a94b18674ab6cc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '839dda4dbd33647aa4f60360eef709f9') in 0.0081404 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe68b6f367826c83852992a1254fabf5 DependenciesID=fcaf86d61d526b3620d458a83c156538 StaticDependenciesID=ddf4f9fb3cdb7771f452b8cdcc5ebafb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util
+  importAddress: Guid(f09eba76755c6994490c150e71377de5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Util using Guid(f09eba76755c6994490c150e71377de5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce2420694e9b7a6fa9c2bce472006574') in 0.0087214 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0467592f3c25e6b122967c30297c57c DependenciesID=f4f261388dc151d3f9003d770fc3fda5 StaticDependenciesID=db7867bfff64bb2ac313c0590e4c79ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/ResolutionListController.cs
+  importAddress: Guid(4d6d133bac1e54b299905423a8563940) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/ResolutionListController.cs using Guid(4d6d133bac1e54b299905423a8563940) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cb2bc14a0603561e5afd70bb62c425dc') in 0.0086543 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb5bd61bd66b32baf07110809d4754ec DependenciesID=5fbe6560bf9c13ddc6a588b304f17494 StaticDependenciesID=c24c54bc88a5c508dbb32f9c3cf3b68e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Util/NormalOverlayMaterial.mat
+  importAddress: Guid(e01257fbb05e84833a5beb1792546158) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Materials/Util/NormalOverlayMaterial.mat using Guid(e01257fbb05e84833a5beb1792546158) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a43f63deb887be78969167ce5eabbd58') in 0.0159894 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ed4a2d9bb216a6042f494580fef5995 DependenciesID=b9dcc34810ff4203c8b60fdc7f5d3852 StaticDependenciesID=d1f22e13ec37b022318c4b2de3ffffcd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util
+  importAddress: Guid(3b810246ee23a4660b8efaa15025d1ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Util using Guid(3b810246ee23a4660b8efaa15025d1ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '43cf7918c02f872f4073198007b215b0') in 0.0083918 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=641bfbef324cb0f66a96004471b55424 DependenciesID=c2b2fe07372d2a7c63755bd082d4f57c StaticDependenciesID=1e969414a016d51c83cc7b0a4546424e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs
+  importAddress: Guid(ed881eea2b5be4afcaa53da11876cc13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Prefabs using Guid(ed881eea2b5be4afcaa53da11876cc13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a52051c64ab7885d7c8c7a3c8a58509b') in 0.0093722 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df382c83026d2378bc4ce5dce41d277a DependenciesID=90e210c77a536052e05c269cbe7655bb StaticDependenciesID=2a46e14ecbbcbb7f125e0bbcb3a62d2d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Content Placement/RotateOverTime.cs
+  importAddress: Guid(c4bc6d4529124498c8b6b299ed36cbcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Content Placement/RotateOverTime.cs using Guid(c4bc6d4529124498c8b6b299ed36cbcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7948de71512f570c4c54d56c131969b2') in 0.0093649 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f09eb09e9a01106325ef6fa13dd9121f DependenciesID=69be755f7c356882311b5463dde4553c StaticDependenciesID=4878901d206e4327f69f742a8505102d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_2 line yellow.png
+  importAddress: Guid(dbe688ccc2a5847e7a8ae86e8f0944e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/ImmersalLogos/IM_2 line yellow.png using Guid(dbe688ccc2a5847e7a8ae86e8f0944e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'abf4d765dfa0a6f3ccd040fa60dfec5e') in 0.022407 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=264d37f63f80fc2a0557f77a7f6d1813 DependenciesID=5884f4a84cdce7b53de117dccad79cdf StaticDependenciesID=7d8e60cff935b2b333e72dc7dcd63208 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_axis.png
+  importAddress: Guid(d819d0633be6b594e8f2dd6ce1e1ee1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Textures/Mapping/ui_axis.png using Guid(d819d0633be6b594e8f2dd6ce1e1ee1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '47d1feffb05e8219f86cfcbe6c8e160b') in 0.0202599 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b5d9ae0ca1d1dfa5b5e19d4cd627592 DependenciesID=be8e7c512415c7a02696c87d691b2d5d StaticDependenciesID=c1523544c6c01bc3b959e9d61d090b3a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs
+  importAddress: Guid(34c8be8d6a586a94c93f554ed9a2c069) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Immersal SDK/2.3.0/Core Samples/Scripts/Navigation/Graph/Waypoint.cs using Guid(34c8be8d6a586a94c93f554ed9a2c069) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '902ff81717e96faf15a9ed9dacdd7f60') in 0.0088264 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41ae1096732bd53d21101a4b4484947f DependenciesID=432a084db940906cb27e5a51aa93cf97 StaticDependenciesID=85df3f919983b205ac5df7ff7927fa8a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.444352 seconds.
+  path: Assets/occlusion.mat
+  importAddress: Guid(c4c633c0e07b6ea40a3ecd18cdbf0049) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/occlusion.mat using Guid(c4c633c0e07b6ea40a3ecd18cdbf0049) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8ef2b78406715f7fa6a51bc9883b003c') in 0.0099775 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2c5ff7e3207cec87eb300647cc853d9 DependenciesID=285ea9ded2f89b872a92eea41e58f4bd StaticDependenciesID=dfa350e230b72369aa55280859bb85ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 329.975394 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(4755b35b590504809a7525fd2109c2e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(4755b35b590504809a7525fd2109c2e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '60ed851464356382b7333f411542c654') in 0.0184695 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa39f53bc97f877331b0981e1cc3759e DependenciesID=353bb6fa30975900bde64e203cad1218 StaticDependenciesID=3df5987e8c25e990a1bb098c31c1d803 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.303528 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(4755b35b590504809a7525fd2109c2e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(4755b35b590504809a7525fd2109c2e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '86cbf12566d01b67209b38f498254d70') in 0.0156977 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=541bd40ec96aaf382f0b70a38bfe4620 DependenciesID=a8b6e32ec03ba30bcf7d95bb43692323 StaticDependenciesID=ce7f5ba9ab230349c2afe7eeb3b8d673 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
