@@ -16,7 +16,7 @@ To enhance visual feedback, the raw waypoints are smoothed dynamically via **Cat
 * **Optimal Route Computation:** Utilizes Unity's NavMesh algorithm for fast, efficient path planning and automatic obstacle avoidance.
 * **Smooth Path Rendering:** Implements Catmull-Rom spline interpolation and procedural mesh generation to produce fluid, natural navigation graphics.
 * **Interactive UI:** Intuitive target management and UI screens for seamless destination selection (e.g., Electronics, Tools, Emergency Exits).
-* **Modular Architecture:** Clean, decoupled C# modules managing state control, coordinate alignment, rendering, and localization independently[cite: 1].
+* **Modular Architecture:** Clean, decoupled C# modules managing state control, coordinate alignment, rendering, and localization independently.
 
 ---
 
@@ -61,7 +61,7 @@ The framework has been vigorously tested across multiple deployment stages—cov
 ---
 
 ## 👥 Contributors & Acknowledgements
-This project was carried out as a partial fulfillment of the Bachelor of Technology in Computer Science and Engineering[cite: 1]:
-* **Team Members:** Bathula Shireesha, Kovuri AnilKumar, V Vinay[cite: 1]
-* **Project Supervisor:** G Anusha (Assistant Professor, VCE)[cite: 1]
-* **Institution:** Vardhaman College of Engineering, Department of Computer Science and Engineering[cite: 1]
+This project was carried out as a partial fulfillment of the Bachelor of Technology in Computer Science and Engineering:
+* **Team Members:** Bathula Shireesha, Kovuri AnilKumar, V Vinay
+* **Project Supervisor:** G Anusha (Assistant Professor, VCE)
+* **Institution:** Vardhaman College of Engineering, Department of Computer Science and Engineering
